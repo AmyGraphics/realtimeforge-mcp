@@ -1,0 +1,24 @@
+name: realtimeforge-mcp
+displayName: RealtimeForge - Autonomous WebSocket, SSE & Real-Time Infrastructure MCP
+description: Universal real-time architecture engine for Cursor, Claude Code & Windsurf. Plans full realtime stacks (chat, live dashboards, multiplayer editors, IoT telemetry), generates Cloudflare Durable Objects WebSocket gateways with JWT auth and auto-reconnect hooks, Figma-style Y.js presence & live cursors, SSE streaming endpoints with backpressure, and Redis pub/sub channel topologies.
+category: developer-tools
+homepage: https://github.com/AmyGraphics/realtimeforge-mcp
+repository: https://github.com/AmyGraphics/realtimeforge-mcp
+icon: https://raw.githubusercontent.com/AmyGraphics/realtimeforge-mcp/main/icon.png
+keywords:
+  - websocket
+  - sse
+  - realtime
+  - durable-objects
+  - pubsub
+  - redis
+  - multiplayer
+  - presence
+  - live-cursors
+  - yjs
+  - cursor
+  - claude
+  - windsurf
+startCommand:
+  type: http
+  url: https://realtimeforge-api.agentweb-hub.workers.dev/mcp
